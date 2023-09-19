@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Registration</title>
+  </head>
+  <body style="background-color: bisque">
+    <center>
+      <h2 style="text-align: center">Registraion Form</h2>
+      <form action="">
+        <table>
+          <tr>
+            <td style="width: 200px"><label for="name">Name:</label></td>
+            <td style="width: 200px">
+              <input type="text" id="name" required />
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 200px"><label for="email">Email:</label></td>
+            <td style="width: 200px">
+              <input type="email" id="email" required />
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 200px"><label for="pwd">Password:</label></td>
+            <td style="width: 200px">
+              <input type="password" id="pwd" required />
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 200px">
+              <label for="number">Phone Number:</label>
+            </td>
+            <td style="width: 200px">
+              <input type="number" id="number" required />
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 200px"><label for="gender">Gender:</label></td>
+            <td style="width: 300px">
+              <input type="radio" id="male" value="Male" />
+              <label for="male">Male</label>
+              <input type="radio" id="female" value="Female" />
+              <label for="female">Female</label>
+              <input type="radio" id="other" value="Other" />
+              <label for="other">Other</label>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 200px"><label for="lang">Language:</label></td>
+            <td style="width: 300px">
+              <select name="lang" id="lang">
+                <option value="Tamil">Tamil</option>
+                <option value="English">English</option>
+                <option value="Malayalam">Malayalam</option>
+                <option value="Telugu">Telugu</option>
+                <option value="Kannada">Kannada</option>
+                <option value="Hindi">Hindi</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 200px"><label for="pin">Pin Code:</label></td>
+            <td style="width: 300px">
+              <input type="number" name="pin" id="pin" required />
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 200px"><label for="about">About:</label></td>
+            <td>
+              <textarea name="about" id="about" cols="30" rows="10"></textarea>
+            </td>
+          </tr>
+        </table>
+        <br />
+        <button style="width: 530px" type="submit">Submit</button>
+      </form>
+    </center>
+  </body>
+</html>
